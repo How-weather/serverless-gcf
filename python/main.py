@@ -2,7 +2,11 @@ import ujson
 import requests
 from pyquery import PyQuery as pq
 import time
+from flask import Flask
+from flask_cors import CORS
 
+app = Flask(__name__)
+CORS(app)
 
 def naver_weather_crawling(keyword):
     headers = {

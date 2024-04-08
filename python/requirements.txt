@@ -1,4 +1,6 @@
+Flask==3.0.2
+Flask-Cors==4.0.0
 functions-framework==3.5.0
+pyquery==2.0.0
 requests==2.31.0
 ujson==5.9.0
-PyQuery==2.0.0
